@@ -2,6 +2,7 @@ import { List, ListItem, ListIcon } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import { AtSignIcon, CalendarIcon, EditIcon } from '@chakra-ui/icons'
 
+
 export default function Sidebar() {
   return (
     <List color="white" fontSize="1.2em" spacing={3}>
@@ -26,3 +27,4 @@ export default function Sidebar() {
     </List>
   );
 }
+

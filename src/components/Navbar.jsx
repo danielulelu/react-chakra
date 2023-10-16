@@ -7,11 +7,11 @@ export default function Navbar() {
       <Spacer />
 
       <HStack spacing="20px">
-        <Box bg="gray" p="10px">
+        <Box bg="gray.600" p="10px">
             D
         </Box>
         <Text>danielulelu@gmail.com</Text>
-        <Button colorScheme="teal">Logout</Button>
+        <Button colorScheme='purple'>Logout</Button>
       </HStack>
     </Flex>
   );

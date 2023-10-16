@@ -10,7 +10,8 @@ import {
   Heading,
   HStack, 
   Button,
-  Divider
+  Divider,
+  Avatar
 } from "@chakra-ui/react";
 import { useLoaderData } from "react-router-dom";
 import { ViewIcon, EditIcon } from '@chakra-ui/icons';
@@ -25,9 +26,7 @@ export default function Dashboard() {
           <Card key={task.id} borderTop="8px" borderColor="purple.400">
             <CardHeader>
               <Flex gap={5}>
-                <Box w='50px' h='50px'>
-                  img
-                </Box>
+                <Avatar src={task.img} />
                 <Box>
                   <Heading as="h3" size="sm">{task.title}</Heading>
                   <Text>by {task.author}</Text>

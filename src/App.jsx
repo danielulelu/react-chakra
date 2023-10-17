@@ -10,7 +10,6 @@ import RootLayout from "./layouts/RootLayout";
 import Dashboard, { tasksLoader } from "./pages/Dashboard";
 import Create, { createTask } from "./pages/Create";
 import Profile from "./pages/Profile";
-import { ChakraProvider } from '@chakra-ui/react';
 
 // router and routes
 const router = createBrowserRouter(createRoutesFromElements(
@@ -24,9 +23,7 @@ const router = createBrowserRouter(createRoutesFromElements(
 
 function App() {
   return (
-    <ChakraProvider>
       <RouterProvider router={router} />
-    </ChakraProvider>
   )
 }
 

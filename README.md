@@ -1,8 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React jsx project using Chakra UI in the design and implementation of the tasks <My Tasks>
 
-Currently, two official plugins are available:
+The whole project is made using Chakra UI, from the navigation bar to the simple grids and the card components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For more information about the UI, look at https://chakra-ui.com/ to get started. It easy to use and the documentations are
+straightforward.
+
+It was fun making this project and I will make another one using the same UI. 
